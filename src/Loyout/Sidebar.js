@@ -26,9 +26,9 @@ function Sidebar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-collor" href="/employees">
+                <a class="nav-link nav-collor" href="/RemainingLeave">
                   <span data-feather="file"></span>
-                  Manage Leave
+                  Remaining Leave
                 </a>
               </li>
               <li class="nav-item">

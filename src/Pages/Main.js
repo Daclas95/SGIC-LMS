@@ -6,6 +6,7 @@ import ApplyLeave from './ApplyLeave';
 import SingIn from './SingIn';
 import AddEmployee from './AddEmployee';
 import Empdetails from './Empdetails';
+import RemainingLeave from './RemainingLeave';
 
 
 function Main() {
@@ -19,6 +20,7 @@ function Main() {
     <Route path='/signIn' component={SingIn}></Route>
     <Route path='/AddEmployee' component={AddEmployee}></Route> 
     <Route path='/Empdetails' component={Empdetails}></Route>
+    <Route path='/RemainingLeave' component={RemainingLeave}></Route>
      
 </main>
      
