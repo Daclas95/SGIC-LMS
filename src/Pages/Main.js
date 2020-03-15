@@ -4,6 +4,7 @@ import ManageLeave from '../Pages/ManageLeave'
 import Home from '../Pages/Home'
 import ApplyLeave from './ApplyLeave';
 import SingIn from './SingIn';
+import AddEmployee from './AddEmployee';
 
 function Main() {
   return (
@@ -13,7 +14,8 @@ function Main() {
     <Route path='/employees' component={ManageLeave}></Route>
     <Route path='/home' component={Home}></Route>
     <Route path='/applyleave' component={ApplyLeave}></Route>
-    <Route path='/signIn' component={SingIn}></Route> 
+    <Route path='/signIn' component={SingIn}></Route>
+    <Route path='/AddEmployee' component={AddEmployee}></Route> 
      
 </main>
      
