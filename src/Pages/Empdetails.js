@@ -1,4 +1,5 @@
 import React from 'react'
+import Roshan from "/SGIC/SGIC-LMS/src/EmpPhotos/Roshan.jpg";
 
 function Empdetails() {
     return (
@@ -29,12 +30,12 @@ function Empdetails() {
           <div class="col-md-6">
             <div class="d-flex flex-row border rounded">
                 <div class="p-0 w-25">
-                    <img src="https://c1.staticflickr.com/3/2862/12328317524_18e52b5972_k.jpg" class="img-thumbnail border-0" />
+                    <img src={Roshan} class="img-thumbnail border-0" />
                   
                 </div>
                 <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
-                    <h4 class="text-primary">Leanne Boulton</h4>
-                    <h5 class="text-info">Photographer</h5>
+                    <h4 class="text-primary">crithic roshan</h4>
+                    <h5 class="text-info">developer</h5>
                     <ul class="m-0 float-left" >
                       <li><i class="fab fa-facebook-square"></i> Facebook</li>
                       <li><i class="fab fa-twitter-square"></i> Twitter</li>
