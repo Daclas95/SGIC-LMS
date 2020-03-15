@@ -5,6 +5,8 @@ import Home from '../Pages/Home'
 import ApplyLeave from './ApplyLeave';
 import SingIn from './SingIn';
 import AddEmployee from './AddEmployee';
+import Empdetails from './Empdetails';
+
 
 function Main() {
   return (
@@ -16,6 +18,7 @@ function Main() {
     <Route path='/applyleave' component={ApplyLeave}></Route>
     <Route path='/signIn' component={SingIn}></Route>
     <Route path='/AddEmployee' component={AddEmployee}></Route> 
+    <Route path='/Empdetails' component={Empdetails}></Route>
      
 </main>
      

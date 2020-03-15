@@ -59,9 +59,9 @@ function Sidebar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-collor" href="#">
+                <a class="nav-link nav-collor" href="/Empdetails">
                   <span data-feather="file-text"></span>
-                  Leave Details
+                  Employee Details
                 </a>
               </li>
              
