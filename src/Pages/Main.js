@@ -7,6 +7,10 @@ import SingIn from './SingIn';
 import AddEmployee from './AddEmployee';
 import Empdetails from './Empdetails';
 import RemainingLeave from './RemainingLeave';
+import Settings from './Settings';
+import DetailsUpdate from './DetailsUpdate';
+import LeaveAproval from './LeaveAproval';
+
 
 
 function Main() {
@@ -21,7 +25,9 @@ function Main() {
     <Route path='/AddEmployee' component={AddEmployee}></Route> 
     <Route path='/Empdetails' component={Empdetails}></Route>
     <Route path='/RemainingLeave' component={RemainingLeave}></Route>
-     
+    <Route path='/Settings' component={Settings}></Route>
+    <Route path='/DetailsUpdate' component={DetailsUpdate}></Route>
+    <Route path='/LeaveAproval' component={LeaveAproval}></Route>
 </main>
      
      );

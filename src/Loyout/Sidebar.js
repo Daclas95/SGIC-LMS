@@ -32,15 +32,15 @@ function Sidebar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-collor" href="/employees">
+                <a class="nav-link nav-collor" href="/DetailsUpdate">
                   <span data-feather="file"></span>
-                  Manage Leave
+                  Update
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-collor" href="/employees">
+                <a class="nav-link nav-collor" href="/Settings">
                   <span data-feather="file"></span>
-                  Manage Leave
+                  Settings
                 </a>
               </li>
             </ul>
@@ -62,6 +62,12 @@ function Sidebar() {
                 <a class="nav-link nav-collor" href="/Empdetails">
                   <span data-feather="file-text"></span>
                   Employee Details
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-collor" href="/LeaveAproval">
+                  <span data-feather="file-text"></span>
+                  Leave approval
                 </a>
               </li>
              

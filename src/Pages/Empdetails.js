@@ -17,12 +17,9 @@ function Empdetails() {
                 </div>
                 <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
                     <h4 class="text-primary">Leanne Boulton</h4>
-                    <h5 class="text-info">Photographer</h5>
-                    <ul class="m-0 float-left" >
-                      <li><i class="fab fa-facebook-square"></i> Facebook</li>
-                      <li><i class="fab fa-twitter-square"></i> Twitter</li>
-                    </ul>
-                  <p class="text-right m-0"><a href="#" class="btn btn-primary"><i class="far fa-user"></i> View Profile</a></p>
+                    <h5 class="text-info">Front end</h5>
+                    <p class="text-right m-0"><a href="#" class="btn btn-primary float-left"><i class="far fa-user"></i> View Profile</a></p>
+                  <p class="text-right m-0"><a href="/DetailsUpdate" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
               </div>
             </div>
           </div>
